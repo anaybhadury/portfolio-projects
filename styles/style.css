@@ -17,7 +17,7 @@ body{
     margin: 0 auto;
     background-image: url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left center;
     margin-bottom: 130px;
 }
 .navbar-container{
@@ -61,7 +61,10 @@ body{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding-right: 20px;
+}
+.image-content{
+    margin-bottom: -5px;
+    margin-right: 30px;
 }
 .text-content h3{
     color: rgb(71, 71, 71);
@@ -91,9 +94,57 @@ body{
     border: none;
     margin-right: 15px;
 }
+/* banner section styles end */
 
+/* about section start */
+.about-container{
+    width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin-bottom: 130px;
+    border: 1px solid rgb(206, 206, 206);
+}
+.about-content{
+    width: 827px;
+    height: 288px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color: white;
+    text-align: center;
+}
 
+.about-content h1{
+    margin-bottom: 30px;
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-content > p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
 
+.address{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.address h4{
+   color: rgb(71, 71, 71);
+   line-height: 0;
+}
+.address p{
+    color: rgb(117, 117, 117);
+    margin-bottom: 20px;
+}
+
+/* about section end */
 
 
 
